@@ -1,0 +1,30 @@
+{
+  "name": "word2vecjs",
+  "version": "1.0.0",
+  "description": "Port of word2vec to JavaScript",
+  "main": "lib/word2vec.js",
+  "bin": {
+    "word2vec": "bin/word2vec"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafis/word2vecjs.git"
+  },
+  "keywords": [
+    "word2vec",
+    "word embeddings",
+    "natural language processing"
+  ],
+  "author": "Rafis Ganeev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafis/word2vecjs/issues"
+  },
+  "homepage": "https://github.com/rafis/word2vecjs#readme",
+  "dependencies": {
+    "minimist": "~1.2.0",
+  }
+}
